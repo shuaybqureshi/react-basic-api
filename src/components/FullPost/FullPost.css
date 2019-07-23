@@ -1,0 +1,41 @@
+.full-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 30px;
+    border: 2px solid #73AD21;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .full-container {
+    padding: 2px 16px;
+  }
+  .fc-title, .fc-sub-title{
+      color:white;
+  }
+  .fc-btn{
+    padding: 20px;
+    width: 200px;
+    background-color: Transparent;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 2px solid #73AD21;
+    color: white;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  .btn-text{
+    
+    color: white;
+    text-decoration: none;
+    font-family: inherit;
+    font-weight: 300;
+
+}
