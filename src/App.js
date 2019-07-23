@@ -8,10 +8,10 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        {/* <Switch>
+        <Switch>
           <Route path="/" component={Post} exact />
           <Route path="/FullPost/:id" component={FullPost} />
-        </Switch> */}
+        </Switch>
       </BrowserRouter>
     );
   }
