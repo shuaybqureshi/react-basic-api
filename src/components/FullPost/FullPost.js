@@ -21,7 +21,7 @@ class FullPost extends Component {
     if (this.state.dataLoaded) {
       return (
         <div>
-          <div className="full-card">
+          <div className="full-card"> 
             <div className="full-container">
               <h4 className="fc-title"><b>Card #{this.state.postData.id}</b></h4>
               <h4 className="fc-title"><b>TITLE</b></h4>

@@ -8,7 +8,7 @@ class Post extends Component {
     }
     componentDidMount() {
         axios.get('https://jsonplaceholder.typicode.com/posts').then(response => {
-            let data = response.data.slice(0, 5);
+            let data = response.data.slice(0, 6);
             this.setState({ posts: data });
         });
     }
@@ -34,6 +34,8 @@ class Post extends Component {
 
         return (
             <div>
+                <h1 className="card-menu-title">Card Menu</h1>
+                <p className="card-menu-subtitle">Please click on "more info" to get more details on a card </p>
                 <div className="container">
                     {posts}
                 </div>
